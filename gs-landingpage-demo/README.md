@@ -3,7 +3,7 @@
 A buyer landing page that follows [globalsources.com](https://www.globalsources.com/) visual patterns: red CTAs, tight sans type, white/gray bands, and a short path to register.
 
 1. **Why visit** — five titles plus show scale (products, exhibitors, booths, countries)
-2. **Phases** — April Phase 1 and Phase 2 product categories
+2. **Phases** — October Phase 1 and Phase 2 shows and product categories
 3. **Register** — form that hands off to the official buyer form at [globalsources.com/tradeShows/HK/register](https://www.globalsources.com/tradeShows/HK/register)
 
 A floating **Register now** bar stays on screen until the form is in view.

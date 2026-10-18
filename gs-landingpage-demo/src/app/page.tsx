@@ -161,14 +161,14 @@ export default function Home() {
               Register for the shows
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-[#666]">
-              Pre-register as a trade buyer for free admission and faster badge
-              pickup. Continue on the official Global Sources form. We do not
-              store your details here.
+              Same questions as the official Global Sources visitor form. After
+              Submit, you finish on globalsources.com. We do not store your
+              details here.
             </p>
             <ul className="mt-5 space-y-2 text-sm text-[#444]">
               <li>— Trade buyers, age 18+</li>
+              <li>— Choose the shows you will visit</li>
               <li>— Free entry with advance registration</li>
-              <li>— Choose Phase 1, Phase 2, or both</li>
             </ul>
           </div>
           <div className="border border-neutral-200 bg-white p-5 md:p-7">
