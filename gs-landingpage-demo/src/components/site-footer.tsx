@@ -36,7 +36,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-white/10 px-4 py-4 text-center text-xs text-neutral-500">
         Independent buyer landing. Visual language follows globalsources.com.
-        Trade buyers only. © 2026
+        Open to all businesses. © 2026
       </div>
     </footer>
   );

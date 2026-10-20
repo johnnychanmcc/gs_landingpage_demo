@@ -28,10 +28,41 @@ export const SHOW = {
         "Global Sources Gaming",
       ],
       productCategories: [
-        "Audio & Video",
-        "Auto Electronics",
-        "Commercial Electronics",
-        "Computer and Accessories",
+        {
+          name: "Audio & Video",
+          image:
+            "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+        },
+        {
+          name: "Auto Electronics",
+          image:
+            "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=800&q=80",
+        },
+        {
+          name: "Commercial Electronics",
+          image:
+            "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80",
+        },
+        {
+          name: "Computer and Accessories",
+          image:
+            "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        },
+        {
+          name: "Outdoor Electronics",
+          image:
+            "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=800&q=80",
+        },
+        {
+          name: "Power & Charging Products",
+          image:
+            "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=800&q=80",
+        },
+        {
+          name: "Gaming",
+          image:
+            "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
+        },
       ],
     },
     {
@@ -47,10 +78,51 @@ export const SHOW = {
         "Global Sources Sports & Outdoor",
       ],
       productCategories: [
-        "AI Products",
-        "Mobile Devices & Accessories",
-        "Cases & Covers",
-        "Wearable Electronics",
+        {
+          name: "AI Products",
+          image:
+            "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80",
+        },
+        {
+          name: "Mobile Devices & Accessories",
+          image:
+            "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
+        },
+        {
+          name: "Cases & Covers",
+          image:
+            "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?auto=format&fit=crop&w=800&q=80",
+        },
+        {
+          name: "Wearable Electronics",
+          image:
+            "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+        },
+        {
+          name: "Pre-owned Equipments & Repair Parts",
+          image:
+            "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
+        },
+        {
+          name: "Smart Home, Security and Appliances",
+          image:
+            "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+        },
+        {
+          name: "Home, Gifts & Personal care",
+          image:
+            "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80",
+        },
+        {
+          name: "Smart Pet Tech",
+          image:
+            "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=800&q=80",
+        },
+        {
+          name: "Sports & Outdoor",
+          image:
+            "https://images.unsplash.com/photo-1461896836934-ffe607ba6851?auto=format&fit=crop&w=800&q=80",
+        },
       ],
     },
   ],

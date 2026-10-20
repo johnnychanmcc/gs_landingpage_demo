@@ -35,21 +35,21 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/70 to-[#E30613]/35" />
         <div className="relative mx-auto max-w-[1120px] px-4 py-16 md:py-24">
           <p className="text-xs font-bold tracking-[0.18em] text-[#E30613] uppercase">
-            Trade buyers · {SHOW.venue}
+            {SHOW.venue}
           </p>
           <h1 className="mt-3 max-w-3xl text-3xl font-bold tracking-tight md:text-5xl md:leading-[1.15]">
             Source Asia in one Hong Kong trip
           </h1>
           <p className="mt-4 max-w-xl text-base leading-relaxed text-white/85 md:text-lg">
-            Meet verified factories. Inspect shelf-ready products. Register now
-            for free trade-buyer admission.
+            Open to all businesses. Meet verified factories, inspect
+            shelf-ready products, and register for free admission.
           </p>
           <p className="mt-5 text-sm font-semibold text-white">{SHOW.dates}</p>
           <a
             href="#register"
             className="mt-8 inline-flex h-12 items-center rounded-[2px] bg-[#E30613] px-7 text-sm font-bold tracking-wide text-white uppercase hover:bg-[#c20510]"
           >
-            Register now — free for trade buyers
+            Register now
           </a>
         </div>
       </section>
@@ -103,7 +103,7 @@ export default function Home() {
           <h2 className="mt-2 text-2xl font-bold md:text-3xl">
             Choose the shows that match your line
           </h2>
-          <div className="mt-8 grid gap-5 md:grid-cols-2">
+          <div className="mt-8 space-y-8">
             {SHOW.phases.map((phase) => (
               <article
                 key={phase.id}
@@ -129,13 +129,22 @@ export default function Home() {
                 <p className="mt-5 text-[11px] font-bold tracking-[0.12em] text-[#888] uppercase">
                   Product categories
                 </p>
-                <ul className="mt-2 flex flex-wrap gap-2">
+                <ul className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4">
                   {(phase.productCategories ?? []).map((category) => (
                     <li
-                      key={category}
-                      className="bg-white px-3 py-1.5 text-sm font-medium text-[#444] ring-1 ring-neutral-200"
+                      key={category.name}
+                      className="relative min-h-[140px] overflow-hidden"
                     >
-                      {category}
+                      <div
+                        className="absolute inset-0 bg-cover bg-center"
+                        style={{
+                          backgroundImage: `url(${category.image})`,
+                        }}
+                      />
+                      <div className="absolute inset-0 bg-black/50" />
+                      <p className="relative z-10 flex h-full min-h-[140px] items-end p-3 text-sm leading-snug font-semibold text-white">
+                        {category.name}
+                      </p>
                     </li>
                   ))}
                 </ul>
@@ -166,7 +175,7 @@ export default function Home() {
               details here.
             </p>
             <ul className="mt-5 space-y-2 text-sm text-[#444]">
-              <li>— Trade buyers, age 18+</li>
+              <li>— Open to all businesses, age 18+</li>
               <li>— Choose the shows you will visit</li>
               <li>— Free entry with advance registration</li>
             </ul>

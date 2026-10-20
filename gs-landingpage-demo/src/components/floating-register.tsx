@@ -31,7 +31,7 @@ export function FloatingRegister() {
       >
         <span className="text-left">
           <span className="block text-[11px] font-semibold tracking-[0.14em] uppercase opacity-90">
-            Free for trade buyers
+            Open to all businesses
           </span>
           <span className="block text-lg font-bold leading-tight">
             Register now

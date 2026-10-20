@@ -405,9 +405,9 @@ export function RegisterForm() {
 
         <div className="space-y-2 text-xs leading-relaxed text-[#666]">
           <p>
-            Trade only – No one under 18 years old will be admitted at any time
-            during the event. No children or babies are allowed to enter the
-            event at any time.
+            No one under 18 years old will be admitted at any time during the
+            event. No children or babies are allowed to enter the event at any
+            time.
           </p>
           <p>A free GlobalSources.com account will be created for new users.</p>
           <p>

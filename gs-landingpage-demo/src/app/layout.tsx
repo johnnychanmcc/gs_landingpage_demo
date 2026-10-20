@@ -9,7 +9,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Global Sources Hong Kong Shows — Buyer registration",
   description:
-    "Why visit Global Sources Hong Kong Shows, what sets them apart, and how to register as a trade buyer.",
+    "Why visit Global Sources Hong Kong Shows, what sets them apart, and how to register. Open to all businesses.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
